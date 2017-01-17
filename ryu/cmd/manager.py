@@ -32,6 +32,7 @@ from ryu.base.app_manager import AppManager
 from ryu.controller import controller
 from ryu.topology import switches
 
+import ryu_simulate
 
 CONF = cfg.CONF
 CONF.register_cli_opts([
