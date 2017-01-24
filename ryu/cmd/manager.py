@@ -33,6 +33,7 @@ from ryu.controller import controller
 from ryu.topology import switches
 
 import ryu_simulate
+import ryu_route_controller
 
 CONF = cfg.CONF
 CONF.register_cli_opts([
